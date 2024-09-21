@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<body>
+    <a href="/">Home</a> <br/>
+    <a href="/verifyproductpage">Verify Product</a><br/>
+    <a href="/adddistributorpage">Add Distributor</a><br/>
+    <a href="/addretailerpage">Add Retailer</a>
+
+    <form action="/addretailerform" method="post">
+        <label>Enter Product Id</label><br/>
+        <input type="number" name="id" /> <br/>
+        <label>Enter Retailer Wallet</label> <br/>
+        <input type="text" name="address" /> <br/>
+        <input type="submit" value="Add Retailer" />
+    </form>
+    {{response}}
+</body>

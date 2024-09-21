@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<body>
+    <a href="/">Home</a> <br/>
+    <a href="/verifyproductpage">Verify Product</a><br/>
+    <a href="/adddistributorpage">Add Distributor</a><br/>
+    <a href="/addretailerpage">Add Retailer</a>
+
+    <form action="/verifyproductform" method="post">
+        <label>Enter Product Id</label><br/>
+        <input type="number" name="id" /> <br/>
+        <input type="submit" value="Verify Product" />
+    </form>
+    {{response}}
+</body>
